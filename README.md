@@ -17,14 +17,14 @@
     - Velocidad de fotogramas: 25 fps
     - Resolución: 1920 x 1080 px
   - Algoritmos de seguimiento:  Se utiliza el algoritmo de Lucas Kanade (LK) que estima el desplazamiento de un punto. El algoritmo selecciona un número determinado de puntos, los cuales son filtrados, tomando en consideración solo los que estan dentro del área de seguimiento.
-- Operaciones generales
-  1 Aperturar el video.
-  2 Iniciar los parámetros y constantes de rectificación de medidas de distancia para la esala de cálculo.
-  3 Definir la región de seguimiento del objeto.
-  4 Seleccionar el frame x y frame x+1
-  5 Seleccionar los puntos de seguimiento.
-  6 Seleccionar los puntos correspondientes.
-  7 Determinar los vectores de velocidad de cada punto.
-  8 Computar la velocidad promedio de los puntos seleccionados.
-  9 Mostrar la velocidad calculada.
-  10 Ir al paso 4.
+- Operaciones generales:
+  1.- Aperturar el video.
+  2.- Iniciar los parámetros y constantes de rectificación de medidas de distancia para la esala de cálculo.
+  3.- Definir la región de seguimiento del objeto.
+  4.- Seleccionar el frame x y frame x+1
+  5.- Seleccionar los puntos de seguimiento.
+  6.- Seleccionar los puntos correspondientes.
+  7.- Determinar los vectores de velocidad de cada punto.
+  8.- Computar la velocidad promedio de los puntos seleccionados.
+  9.- Mostrar la velocidad calculada.
+  10.- Ir al paso 4.
