@@ -136,4 +136,4 @@ class Tracker():
 
 if __name__ == '__main__' :
   mytra = Tracker()
-  mytra.simple_tracker("videos/1.2.mp4")
+  mytra.simple_tracker("150291160.avi")
